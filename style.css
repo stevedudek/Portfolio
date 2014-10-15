@@ -1,8 +1,5 @@
 body{
-  background: url("images/main.jpg");
-  text-align: center;
-  color: sienna;
-  font-family: helvetica;
+  /* color: #F7E7BA; */
   /*background-position: center;*/
   /*background-size: 25%;*/
 
@@ -20,11 +17,33 @@ body{
   /*left: 0;*/
 }
 
-h1 {
-	font-family: sans-serif;
+#banner {
+  /* Set rules to fill background */
+  /*min-height: 100%;*/
+  /*min-width: 1024px;*/
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 300px;
+  width: 100%;
+  background-color: #F7E7BA;;
+  text-align: left;
+  color: #734505;
+  font-family: 'Lato', sans-serif;
+  border: solid blue 10px;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box;
 }
 
-#banner {
+h1 {
+	color: #734505;
+  font-family: 'Lato', sans-serif;
+}
+
+#maincontainer {
   /* Set rules to fill background */
   /*min-height: 100%;*/
   /*min-width: 1024px;*/
@@ -34,18 +53,13 @@ h1 {
   /*height: auto;*/
 	
   /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-  max-height: 200px;
+  clear: left;
+  position: relative;
+  top: 300px;
   width: 100%;
-}
-
-#container {
-	width: 500px;
-	margin: 20px auto;
-	padding: 50px;
-	border: solid blue 10px;
+  height: auto;
+  background-color: #F7E7BA;
+  border: solid blue 10px;
 	-webkit-box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 	      box-sizing: border-box;
